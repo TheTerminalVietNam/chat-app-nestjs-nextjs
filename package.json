@@ -1,0 +1,16 @@
+{
+	"name": "chat-app",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"workspaces": [
+		"frontend",
+		"backend"
+	],
+	"dependencies": {
+		"husky": "^9.1.7"
+	},
+	"scripts": {
+		"prepare": "husky"
+	}
+}
